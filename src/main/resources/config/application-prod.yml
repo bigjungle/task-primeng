@@ -33,9 +33,9 @@ spring:
       enabled: false
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/task
-    username: task
-    password:
+    url: jdbc:postgresql://192.168.10.184:5432/aldb?currentSchema=task
+    username: asys
+    password: asys
     hikari:
       poolName: Hikari
       auto-commit: false
