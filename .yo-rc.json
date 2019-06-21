@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.aero.task",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "6.1.0",
+    "applicationType": "monolith",
+    "baseName": "task",
+    "packageName": "com.aero.task",
+    "packageFolder": "com/aero/task",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NDI4YzNmMWEzMTE0NTYwYzAxYmViYjFhNmMyMDY1MGYyODIzNDQwY2ZlMzk3ZGFmNjZiN2JiY2MzMzNkNzM1MjRjNGM0NDNiYjcwZDY5MGE2ODhkYzIzMDdkYjk4N2I2MTFhM2Y5ZWQxYmYyNzk2MzM4NGNlMWNlYmI3NGVmZTg=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "darkly",
+    "clientThemeVariant": "dark",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "zh-cn",
+    "languages": ["zh-cn", "en"]
+  }
+}
